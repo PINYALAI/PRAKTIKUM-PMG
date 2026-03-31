@@ -1,4 +1,3 @@
-
 #include <iostream>
 #include <ctime>
 using namespace std;
@@ -19,3 +18,11 @@ srand(time(0));
 //perulangan dengan while
 cout<<"Perulangan while"<<endl;
 x=0; + rand()%10;
+
+while(x<5){
+    cout<<"bilangan acak ="<<x <<endl;
+    x= rand()%10;
+}
+
+cout<<"bilangan acak while yang terakhir ="<<x <<endl;
+cout<<endl;
