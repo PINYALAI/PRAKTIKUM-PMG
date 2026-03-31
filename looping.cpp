@@ -1,3 +1,4 @@
+
 #include <iostream>
 #include <ctime>
 using namespace std;
@@ -14,3 +15,7 @@ int main(){
 cout<<endl;
 //untuk mendapatkan urutan acak yang berbeda
 srand(time(0));
+
+//perulangan dengan while
+cout<<"Perulangan while"<<endl;
+x=0; + rand()%10;
